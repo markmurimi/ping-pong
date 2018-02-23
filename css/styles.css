@@ -1,0 +1,14 @@
+.jumbotron{
+  font-size: 150%;
+  font-family:sans-serif "calibri";
+  background-color: #e5b252;
+  text-align: center;
+  padding: 80px;
+}
+.sidebar{
+  float:left;
+  background-color: green;
+  margin-top:40px;
+  padding-right:100px;
+  padding-bottom: 800px;
+}
