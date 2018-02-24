@@ -11,19 +11,20 @@
     <div class="jumbotron">
       <h1>Ping-Pong</h1>
     </div>
-    <div class="container">
-      <div class="sidebar">
-        <h2 >About Ping Pong</h2>
-        <h3 style="color:#FFD7A2">Created by:</h3>Mark Murimi
-        <h3 style="color:#FFD7A2">GitHub Username/URL:</h3>markmurimi
-        <h3 style="color:#FFD7A2">Level 2 Test for:</h3>Java
+    <div class="float-left-area">
+      <div class="inner-left">
+        <h2>About Ping Pong</h2>
+        <h3>Created by:</h3><p>Mark Murimi</p>
+        <h3>GitHub Username/URL:</h3><div class="name">markmurimi</div>
+        <h3>Level 2 Test for:</h3>Java
       </div>
-    </div>
-    <div class="container">
-      <div class="well">
-      <p>Let's play!</p>
+      </div>
 
-      <p>Rules.</p>
+      <div class="float-right-area">
+        <div class="inner-right">
+      <p style="font-size:40px;"><b>Let's play!</b></p>
+
+      <p style="font-size:30px;"><b>Rules:</b></p>
 
       <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
       <ol>
@@ -31,7 +32,17 @@
         <li>Numbers divisible by 5 become "pong"</li>
         <li>Numbers divisible by 3 and 5 become "pingpong"</li>
       </ol>
+      <form id="inputform">
+        <strong>Enter your number here:</strong>
+        <input type="text" id="mark" name="" value="">
+        <button type="submit">Ping Pong</button>
+      </form>
+      <div class="output">
+        <ul>
+
+        </ul>
       </div>
-      </div>
+    </div>
+  </div>
   </body>
-  </html>
+</html>
