@@ -28,3 +28,5 @@ Ping Pong is a web application that takes a number from a user and returns a ran
 
 ---
 Copyright and License are under [**MIT**]()
+
+©MARKKMURIMI ~ 2018 

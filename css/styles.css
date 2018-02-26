@@ -1,16 +1,16 @@
-.CONTAINER-FLUID{
+.jumbotron{
   font-size: 150%;
   font-family:sans-serif "calibri";
-  background-color:#e5b252;
+  background-color: #e5b252;
   text-align: center;
   padding: 80px;
 }
 .float-left-area{
-  width: 30%;
+  width: 25%;
   float: left;
   padding: 10px;
   margin-left: -20px;
-  min-height: 800px;
+  height:100%;
   margin-top: 20px;
 }
 .inner-left{
@@ -19,13 +19,16 @@
   min-height:700px;
   background-color:#4bb742;
 }
+h3{
+  color:#FFD7A2;
+}
 .float-left-area,.p{
   color: white;
 }
 .name{
-  color:blue;
+  color: blue;
 }
-.about{
+h2{
   color: black;
 }
 .float-right-area{
@@ -39,4 +42,7 @@
 }
 .inner-right.p{
   font-size: 60%;
+}
+body{
+  background-color:#dee2e8;
 }
