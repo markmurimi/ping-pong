@@ -1,13 +1,12 @@
 .jumbotron{
-  font-size: 150%;
   font-family:sans-serif "calibri";
   text-align: center;
   padding: 80px;
-  opacity:0.8;
-  background-color: red;
+  background-image:url("../img/ping.jpg");
+  color:red;
 }
 .float-left-area{
-  width: 25%;
+  width:27%;
   float: left;
   padding: 10px;
   margin-left: -20px;
@@ -17,7 +16,7 @@
 .inner-left{
   padding: 10px;
   padding-bottom: 500px;
-  min-height:700px;
+  min-height:800px;
   background-color:#4bb742;
 }
 h3{
